@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--ENCABEZADO OSEA LO QUE SE VEE ARRIBA DEL LINK-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo</title>
+</head>
+<body>
+<!--esto se va a ver en la pagina ya-->
+<!--table para hacer tablas-->
+<!--h y un numero es para cambiar el tamaño desde el 1 al 6-->
+<!--lo que este dentro de un tr se pondra hacia el lado y dentro de los td hacia abajo-->
+<!--align es para ponerlo al centro izquierda o derecha-->
+    <table border="2" align="center">
+        <caption><h2>hola mundo</h2></caption>
+        <tr>
+            <td>
+                <ul>
+                    <li>yasuo</li>
+                    <li>lIEPAA</li>
+                    <li>ahri</li>
+                </ul>
+            </td>
+            <td>
+                <ol>
+                    <li>yasuo</li>
+                    <li>lee sin</li>
+                    <li>yone</li>
+                </ol>
+        </tr>
+        <tr>
+            </td>
+            <td>
+                <!--para imagen se pone img para llamarla-->
+                <!--alt es para que salga un texto en caso de que no cargue la imagen-->
+                  <img src="xd.gif" alt="FOTITO"/>
+            </td>
+            <td>
+                 <a href="https://www.youtube.cl">Vamos a duoc</a>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
