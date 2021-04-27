@@ -1,0 +1,24 @@
+
+body {
+    background-image: url("back.jpg") ;
+    color: mediumspringgreen;
+    text-align: center;
+}
+img {
+    float: inline-start;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+caption{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+nav{
+    text-align: center;
+}
