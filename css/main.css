@@ -1,9 +1,17 @@
 
-body {
-    
+body {  
     color: rgb(0, 0, 0);
     text-align: center;
 }
+.cajatitulo{
+    background-color: darkorchid;
+    width: 100%;
+    height: 25%;
+    position: fixed;
+    
+}
+   
+
 img {
     float: inline-start;
 }
