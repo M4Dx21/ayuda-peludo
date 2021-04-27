@@ -1,8 +1,34 @@
-body{
-    background-image: url("back gatos.jpg");
+
+.cajagatos{
+    background-color: dodgerblue;
+    width: 100%;
+    height: 25%;
+    position: fixed;
+   
 }
-p{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: large;
-    font-weight: bold;
+
+.gatos {
+    text-align: center;
+}
+
+.redes{
+    background-color: dodgerblue;
+    width: 100%;
+    height: 25%;
+    position: bottom;
+    margin-top: 300px;
+    padding-bottom: fixed;
+   
+}
+#gato1{
+    width: 400px;
+    height: 600px;
+}
+#gato2{
+    width: 400px;
+    height: 600px;
+}
+#gato3{
+    width: 400px;
+    height: 600px;
 }
