@@ -4,15 +4,27 @@ body {
     text-align: center;
 }
 #perro {
-    margin-top: auto;
-    width: 350px;
-    height: 350px;
+    margin-top: -425px;
+    width: 280px;
+    height: 280px;
     
 }
 #recuadro {
     width: 400px;
     height: 400px;
 }
+#gato {
+    margin-top: -425px;
+    width: 280px;
+    height: 280px;
+}
+#colaboradores {
+    margin-top: -425px;
+    width: 280px;
+    height: 280px;
+}
+
+
 .cajatitulo{
     background-color: darkorchid;
     width: 100%;
