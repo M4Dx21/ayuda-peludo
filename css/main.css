@@ -30,7 +30,13 @@ body {
     width: 100%;
     height: 25%;
     position: fixed;
-    
-}
    
+}
 
+.redes{
+    background-color: darkorchid;
+    width: 100%;
+    height: 25%;
+    position: bottom;
+    margin-top: 220px;  
+}
