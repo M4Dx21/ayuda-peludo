@@ -4,7 +4,7 @@ body {
     text-align: center;
 }
 #perro {
-    margin-top: -420px;
+    margin-top: -425px;
     width: 290px;
     height: 290px;
     
@@ -29,4 +29,13 @@ body {
     margin-top: 229px;  
  }
 
-
+ #gato {
+    margin-top: -425px;
+    width: 280px;
+    height: 280px;
+}
+#colaboradores {
+    margin-top: -425px;
+    width: 280px;
+    height: 280px;
+}
