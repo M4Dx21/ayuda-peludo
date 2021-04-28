@@ -47,10 +47,18 @@ p{
     height: 20%;
     position: fixed;
     
-    
-   
 }
-
+@media (max-width:800px){
+   .menu{
+      width: 160px;
+      height: 100px;
+      margin-left: 400px;
+   }
+   #perro{
+      width: 200px;
+      height: 100px;
+   }
+}
 #tmenu{
     margin-top: 40px;
 }

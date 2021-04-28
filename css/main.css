@@ -32,7 +32,17 @@ body {
     position: fixed;
    
 }
-
+@media (max-width:800px){
+    .menu{
+       width: 160px;
+       height: 100px;
+       margin-left: 400px;
+    }
+    #perro{
+       width: 200px;
+       height: 100px;
+    }
+ }
 .redes{
     background-color: dodgerblue;
     width: 100%;
@@ -41,7 +51,16 @@ body {
     margin-top: 220px;  
 }
 
-
+@media (min-width:100px){
+    img{
+       width: 50px;
+    }
+ }
+ @media (min-width:900px){
+    img{
+       width: 150px;
+    }
+ }
 
 
 
