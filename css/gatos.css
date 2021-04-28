@@ -20,14 +20,19 @@
     padding-bottom: fixed;
    
 }
-#gato1{
+#gatoss{
     width: 400px;
-    height: 600px;
+    height: 400px;
+    margin-left: 350px;
+}
+#gato1{
+    width: 350px;
+    height: 400px;
     
 }
 #gato2{
-    width: 400px;
-    height: 600px;
+    width: 350px;
+    height: 400px;
 }
 #gato3{
     width: 400px;
