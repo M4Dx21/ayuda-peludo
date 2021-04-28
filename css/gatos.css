@@ -23,6 +23,7 @@
 #gato1{
     width: 400px;
     height: 600px;
+    
 }
 #gato2{
     width: 400px;
@@ -31,4 +32,9 @@
 #gato3{
     width: 400px;
     height: 600px;
+    
+
+.txg1 {
+    padding-left: 50px;
+
 }
