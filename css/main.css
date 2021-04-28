@@ -51,16 +51,3 @@ body {
     margin-top: 220px;  
 }
 
-@media (min-width:100px){
-    img{
-       width: 50px;
-    }
- }
- @media (min-width:900px){
-    img{
-       width: 150px;
-    }
- }
-
-
-
