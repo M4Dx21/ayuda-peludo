@@ -25,6 +25,17 @@
     height: 400px;
     margin-left: 350px;
 }
+@media (max-width:800px){
+    .menu{
+       width: 160px;
+       height: 100px;
+       margin-left: 400px;
+    }
+    #gatoss{
+       width: 200px;
+       height: 100px;
+    }
+ }
 #gato1{
     width: 350px;
     height: 400px;
