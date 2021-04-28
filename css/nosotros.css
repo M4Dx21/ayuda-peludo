@@ -1,0 +1,23 @@
+.titulo{
+    background-color: dodgerblue;
+    width: 100%;
+    height: 25%;
+    position: fixed;
+   
+}
+
+.redes{
+    background-color: dodgerblue;
+    width: 100%;
+    height: 30%;
+    position: bottom;
+    margin-top: 220px;  
+}
+.subtitulo {
+    text-align: center;
+}
+.imgnos {
+    width: 1920px;
+    height: 1080px;
+    margin-top: 600px;
+}
