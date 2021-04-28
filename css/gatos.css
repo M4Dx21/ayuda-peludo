@@ -1,12 +1,5 @@
-body{
-    background-image: url("back gatos.jpg");
-}
-p{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: large;
-    font-weight: bold;
-}
-.cajatitulo{
+
+.cajagatos{
     background-color: dodgerblue;
     width: 100%;
     height: 25%;
@@ -14,10 +7,34 @@ p{
    
 }
 
+.gatos {
+    text-align: center;
+}
+
 .redes{
     background-color: dodgerblue;
     width: 100%;
-    height: 30%;
+    height: 25%;
     position: bottom;
-    margin-top: 220px;  
+    margin-top: 300px;
+    padding-bottom: fixed;
+   
+}
+#gato1{
+    width: 400px;
+    height: 600px;
+    
+}
+#gato2{
+    width: 400px;
+    height: 600px;
+}
+#gato3{
+    width: 400px;
+    height: 600px;
+    
+
+.txg1 {
+    padding-left: 50px;
+
 }
