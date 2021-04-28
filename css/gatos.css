@@ -32,9 +32,63 @@
 #gato3{
     width: 400px;
     height: 600px;
+
+ }
+
+ .menu {
+     background-color:rgb(102, 150, 240);
+     width: 100%;
+     height: 20%;
+     position: fixed;
+     
+     
     
+ }
 
-.txg1 {
-    padding-left: 50px;
+ #tmenu{
+     margin-top: 40px;
+ }
+ 
+#op1 {
+    text-decoration: none;
+    margin-top: 60px;
 
+}
+#op2 {
+    text-decoration: none;
+    margin-top: 60px;
+}
+
+#op3 {
+    text-decoration: none;
+    margin-top: 60px;
+}
+#op4 {
+    text-decoration: none;
+    margin-top: 60px;
+}
+ 
+#lg {
+    width: 220px;
+    height: 210px;
+}
+#lg1{
+    width: 200px;
+    height:200px;
+    margin-top: -50px;
+}
+#lg2{
+    width: 200px;
+    height:200px;
+    margin-top: -50px;
+}
+#lg3 {
+    width: 200px;
+    height:200px;
+    margin-top: -50px;
+}
+#lg4 {
+    width: 200px;
+    height:200px;
+    margin-top: -50px;
 }
