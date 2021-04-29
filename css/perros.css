@@ -113,10 +113,11 @@ p{
     
 }
 #logo{
-   height: 200px;
-   width: 200px;
+   height: 400px;
+   width: 400px;
    left: 0;
    top: 0;
+   margin-left: 500px;
 }
 @media (max-width:800px){
    .menu{

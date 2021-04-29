@@ -57,10 +57,13 @@
 		cursor: pointer;
 		font-size: 18px;
 	}
-#logo {
-    width: 200px;
-    height: 200px;
-}
+    #logo{
+        height: 400px;
+        width: 400px;
+        left: 0;
+        top: 0;
+        margin-left: 500px;
+     }
 *{
     margin: 0;
     padding: 0;

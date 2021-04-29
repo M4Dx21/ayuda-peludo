@@ -87,11 +87,12 @@ body {
     height: 280px;
 }
 #logo{
-    height: 200px;
-    width: 200px;
-    left: 0;
-    top: 0;
-}
+	height: 400px;
+	width: 400px;
+	left: 0;
+	top: 0;
+	margin-left: 500px;
+ }
 
 .redes{
     background-color: dodgerblue;
