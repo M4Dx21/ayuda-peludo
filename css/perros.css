@@ -106,3 +106,16 @@ p{
    height:200px;
    margin-top: -50px;
 }
+
+@media (max-width:800px){
+   .menu{
+      width: 160px;
+      height: 100px;
+      margin-left: 400px;
+      
+   }
+   #perro{
+      width: 200px;
+      height: 100px;
+   }
+}
