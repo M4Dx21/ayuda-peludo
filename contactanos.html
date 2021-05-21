@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/contactanos.css" type="text/css" />
+    <link rel="stylesheet" rel="stylesheet" href="css/bootstrap.min.css" />
+    
+    </head>
+    
+    <body>
+        <!--MENUUUUUUUUUUUUUUUUUUU-->
+    <header class="header">
+        <div class="container">
+        <div class="btn-menu">
+            <label for="btn-menu"><img id=logo src="img/Ayudaun Peludo.gif" class="img-fluid" alt="Responsive image"></label>
+        </div>
+            <div class="logo">
+                <h1>Envianos Un Mensaje o Consultas</h1>
+            </div>
+            <br>
+            <br>
+
+            
+        </div>
+    </header>
+    <input type="checkbox" id="btn-menu">
+    <div class="container-menu">
+        <div class="cont-menu">
+            <nav>
+                <a href="indeeez.html">Inicio</a>
+                <a href="gatos.html">Gatos</a>
+                <a href="nosotros.html">Trabajadores</a>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </nav>
+            <label for="btn-menu">✖️</label>
+        </div>
+    </div>
+   </div>  
+    <!--MENUUUUUUUUUUUUUUUUUUU-->
+
+        <!---FORMULARIO-->
+        <div class="row margenTop10">
+            <form name="formulario" method="POST">
+                <div class="form-group" id="nombre">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" required name="nombre" placeholder="Ingrese Nombre">
+                </div>
+                <div class="form-group" id="Edad">
+                    <label for="edad">Edad</label>
+                    <input type="number" class="form-control" id="edad" required min="18" max="70" name="edad" placeholder="Ingrese Edad">
+                </div>
+                <div class="form-group" id="email">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="correo" required name="correo" placeholder="Ingresa tu Email">
+                </div>
+                <div class="form-group" id="mensaje">
+                    <label for="mensaje">Mensaje</label>
+                    <input type="text" class="form-control" id="mensaje" required name="mensaje" placeholder="Ingrese Su Mensaje">
+                </div>
+                <div class="form-group" id="ac">
+                    <label for="casilla">Acepta condiciones</label>
+                    <input type="checkbox" class="form-check" id="casilla" required name="casilla" >
+                </div>
+                
+                <div>
+                    <button type="submit" class="btn btn-primary" >Enviar</button>
+                </div>
+            </form>
+    <!--FORMULARIO-->
+</div>
+<!--REDES SOCIALES-->
+<div class="col-12">
+    <div class="redes">
+        <h2>Redes Sociales<h2>
+        
+        <img id=twiter src="img/circle-cropped (1).png" class="img-fluid" alt="Responsive image">
+        <img id=facebook src="img/circle-cropped (2).png" class="img-fluid" alt="Responsive image">
+        <img id=ws src="img/circle-cropped (4).png" class="img-fluid" alt="Responsive image">
+        <img id=instragram src="img/circle-cropped (3).png" class="img-fluid" alt="Responsive image">
+    </div>
+
+</div>
+<!--REDES SOCIALES-->
+    </body>
+
+        <script src="css/bootstrap.bundle.min.js"></script>
+        <script src="css/bootstrap.min.css"></script>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="css/miscript.js"></script>
+</html>
