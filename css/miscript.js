@@ -1,7 +1,7 @@
 function validar_envio(){
-  if (document.formulario.nombre.value.length==0) {
+  if (document.getElementById.value.length==0) {
       alert("Tienes que escribir tu nombre!")
-      document.formulario.nombre.focus()
+      document.getElementById.focus()
       return 0;
 
   }

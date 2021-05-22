@@ -57,161 +57,102 @@
 		cursor: pointer;
 		font-size: 18px;
 	}
-  #logo{
-    height: 400px;
-    width: 400px;
-    left: 0;
-    top: 0;
-    margin-left: 450px;
- }
+    #logo{
+        height: 400px;
+        width: 400px;
+        left: 0;
+        top: 0;
+        margin-left: 450px;
+     }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.d-block{
-   width: 100%;
-   height: 90%;
-}
+
+
+
+
 .redes{
     background-color: dodgerblue;
     width: 100%;
-    height: 30%;
+    height: 25%;
     position: bottom;
-    margin-top: 220px;  
-}
-.subtitulo {
-    text-align: center;
-}
-.imgnos {
-    width: 1920px;
-    height: 1080px;
-    margin-top: 600px;
-}
-.menu {
-    background-color:rgb(102, 150, 240);
-    width: 100%;
-    height: 20%;
-    position: fixed;
+    margin-top: 500px;
+    padding-bottom: 30px;
+    
+
+    
    
+
+
 }
 @media (max-width:800px){
-   img{
-      width: 50px;
-   }
-}
-#tmenu{
-    margin-top: 40px;
-}
+    .menu{
+       width: 160px;
+       height: 100px;
+       margin-left: 400px;
+    }
+    
+ }
 
+
+ .menu {
+     background-color:rgb(102, 150, 240);
+     width: 100%;
+     height: 20%;
+     position: fixed;
+     
+     
+    
+ }
+
+ #tmenu{
+     margin-top: 40px;
+ }
+ 
 #op1 {
-   text-decoration: none;
-   margin-top: 60px;
+    text-decoration: none;
+    margin-top: 60px;
 
 }
 #op2 {
-   text-decoration: none;
-   margin-top: 60px;
+    text-decoration: none;
+    margin-top: 60px;
 }
 
 #op3 {
-   text-decoration: none;
-   margin-top: 60px;
+    text-decoration: none;
+    margin-top: 60px;
 }
 #op4 {
-   text-decoration: none;
-   margin-top: 60px;
+    text-decoration: none;
+    margin-top: 60px;
 }
-
+ 
 #lg {
-   width: 220px;
-   height: 210px;
+    width: 220px;
+    height: 210px;
 }
 #lg1{
-   width: 200px;
-   height:200px;
-   margin-top: -50px;
+    width: 200px;
+    height:200px;
+    margin-top: -50px;
 }
 #lg2{
-   width: 200px;
-   height:200px;
-   margin-top: -50px;
+    width: 200px;
+    height:200px;
+    margin-top: -50px;
 }
 #lg3 {
-   width: 200px;
-   height:200px;
-   margin-top: -50px;
+    width: 200px;
+    height:200px;
+    margin-top: -50px;
 }
 #lg4 {
-   width: 200px;
-   height:200px;
-   margin-top: -50px;
+    width: 200px;
+    height:200px;
+    margin-top: -50px;
 }
 
- 
- .container{
-   margin: auto;
-   background-color: white;
-   width: 800px;
-   padding: 30px;
- }
- 
- ul, li {
-     padding: 0;
-     margin: 0;
-     list-style: none;
- }
- 
- ul.slider{
-   position: relative;
-   width: 800px;
-   height: 300px;
- }
- 
- ul.slider li {
-     position: absolute;
-     left: 0px;
-     top: 0px;
-     opacity: 0;
-     width: inherit;
-     height: inherit;
-     transition: opacity .5s;
-     background:#fff;
- }
- 
- ul.slider li img{
-   width: 100%;
-   height: 300px;
-   object-fit: cover;
- }
- 
- ul.slider li:first-child {
-     opacity: 1; /*Mostramos el primer <li>*/
- }
- 
- ul.slider li:target {
-     opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
- }
- 
- .menu{
-   text-align: center;
-   margin: 20px;
- }
- 
- .menu li{
-   display: inline-block;
-   text-align: center;
- }
- 
- .menu li a{
-   display: inline-block;
-   color: white;
-   text-decoration: none;
-   background-color: grey;
-   padding: 10px;
-   width: 20px;
-   height: 20px;
-   font-size: 20px;
-   border-radius: 100%;
- }

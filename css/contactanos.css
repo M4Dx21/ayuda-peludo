@@ -89,6 +89,7 @@ body {
     width: 400px;
     height: 70px;
     margin-left: 600px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #edadf{
     width: 400px;
@@ -107,12 +108,18 @@ body {
     width: 400px;
     height: 70px;
     margin-left: 600px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #mensajef{
-    width: 400px;
+    width: 600px;
     height: 70px;
-    margin-left: 600px;
+    margin-left: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
+}
+#mensaje{
+    
+    height: 300px;
 }
 #ac{
     width: 400px;

@@ -46,38 +46,30 @@
     <!--MENUUUUUUUUUUUUUUUUUUU-->
    <br/>
    <br/>
-   <br/>
-   <br/>
-   <br/>
-   <br/>
-   <br/>
-   <br/>
-   <br/>
-   <br/>
-   <br/>
-   <br/>
+   <br>
+  
+   <div class="row margenTop10 centrar">
+    <h1>¿Cómo está el Clima?</h1>
+    
+    <form>
+        <div class="form-group">
+            <input type="text" class="form-control" id="ciudad" name="ciudad" placeholder="Ingrese Ciudad">
+        </div>
+        <button id="consultaClima" type="button" class="btn btn-primary margenTop10" onclick="cargar_clima()">Consultar
+            Clima</button>
+    </form>
+
+    <div id="datosDelClima">
+        <p id="datosCiudad">La temperatura para <span id="ubicacion"></span> es : <span
+                id="temperatura"></span>º</p>
+        <p id="datosCiudad">Humedad Relativa <span id="humedad"></span> % Porciento</p>
+        <p id="datosCiudad">Velocidad del Viento <span id="velocidadviento"></span> KM/H</p>
+
+    </div>
+
+</div>
    
-   <div class="container-fluid">
-       <div class="row">
-           <div class="col-md-4">
-              <img id=recuadro src="img/oiQelvM.jpg" class="img-fluid" alt="Responsive image">
-
-              <a href="perros.html" ><img id=perro src="img/circle-cropped.png" class="img-fluid" alt="Responsive image"></a>
-           </div>
-           <div class="col-md-4">
-               
-            <img id=recuadro src="img/oiQelvM.jpg" class="img-fluid" alt="Responsive image">
-            <a href="nosotros.html" ><img id=perro src="img/circle-cropped (5).png" class="img-fluid" alt="Responsive image"></a>
-        </div>
-        <div class="col-md-4">
-            <img id=recuadro src="img/oiQelvM.jpg" class="img-fluid" alt="Responsive image">
-
-            <a href="gatos.html" ><img id=perro src="img/gato circulo.png" class="img-fluid" alt="Responsive image"></a>
-
-        </div>
-
-       </div>
-   </div>
+   
 
    <div class="col-12">
        <div class="redes">
@@ -90,7 +82,10 @@
        </div>
 
    </div>
-
+   <script src="css/bootstrap.bundle.min.js"></script>
+   <script src="css/bootstrap.min.css"></script>
+   <script src="css/jquery-3.6.0.min.js"></script>
+   <script src="css/scripClima.js"></script>
    
 </body>
 </html>
